@@ -8,11 +8,40 @@
 import SwiftUI
 
 struct ContentView: View {
+    let backgroundGradient = LinearGradient(
+        colors: [Color.white, Color.white],
+        startPoint: .top, endPoint: .bottom)
 
+    
+    
     var body: some View {
-        Text("Hello beaver!")
-        Text("🦫")
+        ZStack{
+            backgroundGradient
+            VStack {
+                
+                Spacer()
+                Image(systemName: "antenna.radiowaves.left.and.right")
+                    .padding(4.0)
+                    .font(.system(size: 48))
+                    .symbolRenderingMode(.palette)
+                    .foregroundStyle(.black, .blue)
+                    .symbolEffect (
+                        .variableColor.cumulative.dimInactiveLayers.reversing
+                    )
+                
+                Text("Connecting...")
+                    .font(.title)
+                    .fontWeight(.medium)
+                    .foregroundColor(Color.black)
+                    
+                    
+                
+                Spacer()
+            }
+            
+        }
     }
+    
     
 }
 

@@ -11,6 +11,8 @@
 		78EE461C2AF447D00064414D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EE461B2AF447D00064414D /* ContentView.swift */; };
 		78EE46202AF447D10064414D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78EE461F2AF447D10064414D /* Assets.xcassets */; };
 		78EE46232AF447D10064414D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78EE46222AF447D10064414D /* Preview Assets.xcassets */; };
+		78EE462A2AF537940064414D /* ConnectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EE46292AF537940064414D /* ConnectedView.swift */; };
+		78EE462E2AF53E070064414D /* ConnectedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EE462D2AF53E070064414D /* ConnectedData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		78EE461B2AF447D00064414D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		78EE461F2AF447D10064414D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78EE46222AF447D10064414D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		78EE46292AF537940064414D /* ConnectedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectedView.swift; sourceTree = "<group>"; };
+		78EE462D2AF53E070064414D /* ConnectedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectedData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				78EE46192AF447D00064414D /* ESP32ConnectApp.swift */,
 				78EE461B2AF447D00064414D /* ContentView.swift */,
+				78EE46292AF537940064414D /* ConnectedView.swift */,
+				78EE462D2AF53E070064414D /* ConnectedData.swift */,
 				78EE461F2AF447D10064414D /* Assets.xcassets */,
 				78EE46212AF447D10064414D /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				78EE461C2AF447D00064414D /* ContentView.swift in Sources */,
 				78EE461A2AF447D00064414D /* ESP32ConnectApp.swift in Sources */,
+				78EE462A2AF537940064414D /* ConnectedView.swift in Sources */,
+				78EE462E2AF53E070064414D /* ConnectedData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
